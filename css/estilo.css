@@ -1,0 +1,173 @@
+/*Pagina Principal*/
+body {
+    background-color: gainsboro;
+
+}
+.encabezado {
+    align-items: center;
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    box-shadow: 0px 2px 4px;
+}
+.nombreDeLaCompañia {
+   color:black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+.logo {
+    display: flex;
+}
+.logo img {
+    display: flex;
+    height: 75px;
+    margin: 10px;
+}
+nav ul li {
+    display: list-item;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: auto;
+    margin-right: 150px;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding-right: 35px;
+
+}
+nav a:hover {
+    color: black;
+    }
+
+
+
+
+
+@media (max-width: 1000px){
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+     h2 {
+        flex-wrap: wrap ;
+    }
+}
+main img {
+    display: flex;
+    padding: 25px;
+    width: 95%
+   
+}
+@media (max-width:400px)
+    { .imgenPrincipal{
+        flex-direction: column;
+    }
+    }
+.contenedorUno {
+    background-color: gray;
+    padding: 5px;
+    height: 310px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+
+/*Pagina de modelos*/
+
+.contieneTodo {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 20px;
+    border-radius: 3px;
+}
+
+.contieneTodo img {
+    
+    height: 300px;
+    width: 350px;
+}
+.contenedorModeloUno {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.botonAgregarCarrito:hover {
+    color: black;
+    margin-bottom: auto;
+}
+.contenedorModeloDos {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.contenedorModeloTres {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+.contenedorModeloCuatro {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+.contenedorModeloCinco {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+.contenedorModeloSeis {
+    background-color: grey;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: auto;
+}
+
+.finalDelPie {
+    grid-area: footer;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+
+/*pagina de contacto*/
+
+.botonEnviar {
+    margin-bottom: auto;
+}
+.botonCancelar {
+    margin-bottom: auto;
+    
+}
+@media (min-width: 768px){
+    .contieneTodo{
+        grid-template-columns: 1fr;
+    }
+}
